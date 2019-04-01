@@ -74,11 +74,12 @@ p {
 header.home-header {
     width: 800px;
     display: flex;
+    flex-wrap: wrap;
 
 }
 
 nav.home-nav {
-    width: 800px;
+    width: 760px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -86,6 +87,11 @@ nav.home-nav {
 
 nav a {
     text-decoration: none;
+    font: black;
+}
+img.index-img {
+    margin: 40px 0;
+
 }
 
 .top-content {
@@ -127,6 +133,46 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
 }
 
 .bottom-content {
