@@ -71,14 +71,14 @@ p {
     margin: 0 auto;
 }
 
-header.home-header {
+header {
     width: 800px;
     display: flex;
     flex-wrap: wrap;
 
 }
 
-nav.home-nav {
+nav {
     width: 760px;
     display: flex;
     justify-content: space-between;
@@ -206,4 +206,38 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+section.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.middle-content-about div {
+    width: 380px;
+    padding: 15px 0 15px 0;
+    margin-right: 20px;
+    border-bottom: 1px dashed black;
+}
+
+section.bottom-content-about {
+    margin: 40px 0;
+}
+
+button {
+    background: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+section.middle-content-about div img {
+    margin-bottom: 10px;
+
 }
