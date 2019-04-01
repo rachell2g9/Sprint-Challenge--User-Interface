@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+header.home-header {
+    width: 800px;
+    display: flex;
+
+}
+
+nav.home-nav {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
