@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav {
+    width: 760px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav a {
+    text-decoration: none;
+    font: black;
+}
+img.index-img {
+    margin: 40px 0;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +135,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +206,38 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+section.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.middle-content-about div {
+    width: 380px;
+    padding: 15px 0 15px 0;
+    margin-right: 20px;
+    border-bottom: 1px dashed black;
+}
+
+section.bottom-content-about {
+    margin: 40px 0;
+}
+
+button {
+    background: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+section.middle-content-about div img {
+    margin-bottom: 10px;
+
 }
